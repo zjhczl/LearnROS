@@ -39,6 +39,7 @@
    在使用 ROS 之前，您需要初始化 `rosdep`。`rosdep` 可以方便地安装系统依赖项，以及编译和运行一些核心组件时所需的东西：
 
    ```sh
+   sudo apt install python3-rosdep
    sudo rosdep init
    rosdep update
    ```
